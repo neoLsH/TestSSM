@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="Test">
-    <insert id="insertmember">
+<mapper namespace="com.hls.dao.Idao">
+    <insert id="InsertMember">
         insert into info (name, sec, sex, TimeDate) values (#{name},#{sec},#{sex},#{TimeDate})
     </insert>
 
@@ -29,4 +29,18 @@
     <select id="selectAllMember" resultType="TestMyBatis">
         select id,name,sec,sex,TimeDate from info
     </select>
+
+    <select id="selectAllMemberMap" resultType="TestMyBatis">
+        select id,name,sec,sex,TimeDate from info
+    </select>
+
+    <select id="selectMemberByid" resultType="TestMyBatis">
+        select id,name,sec,sex,TimeDate from info where id like concat('%',#{id},'%')
+    </select>
+
+    <select id="selectMemberBySec" resultType="TestMyBatis">
+        select id,name,sec,sex,TimeDate from info where sec like concat('%',#{sec},'%')
+    </select>
+
+
 </mapper>

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface Idao {
-    void INSERTmember(TestMyBatis testMyBatis);
+    void InsertMember(TestMyBatis testMyBatis);
     void InsertMemberCache(TestMyBatis testMyBatis);
 
     void DeleteMemberByid(int id);
@@ -15,7 +15,7 @@ public interface Idao {
     List<TestMyBatis> selectAllMember();
     Map<String,Object> selectAllMemberMap();
 
-    TestMyBatis selectMemberByName(String name);
-    List<TestMyBatis> selectMemberBy(String sec);
+    TestMyBatis selectMemberByid(int id);
+    List<TestMyBatis> selectMemberBySec(String sec);
 
 }
