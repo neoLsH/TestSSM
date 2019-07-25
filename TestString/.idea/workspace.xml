@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f50a9999-1d1d-43d8-8397-30deb57e8bf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TestMyBatisNNN/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyBatisNNN/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyBatisNNN/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyBatisNNN/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyBatisNNN/src/main/com/hls/Impl/impl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyBatisNNN/src/main/com/hls/beans/TryMyBatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyBatisNNN/src/main/com/hls/idao/Idao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyBatisNNN/src/main/webapp/WEB-INF/Idao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hls/beans/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hls/beans/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hls/beans/PrettyGirl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hls/beans/WeChatPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/.idea/dataSources/2cef0a5c-de6a-44c0-b635-4f6e6cf88b4c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/src/main/java/com/hls/beans/TestMyBatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/src/main/java/com/hls/beans/TestMyBatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/src/main/java/com/hls/dao/Idao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/src/main/java/com/hls/dao/Idao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/src/main/resource/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/src/main/resource/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/src/main/resource/mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/src/test/java/com/MyBatis/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/src/test/java/com/MyBatis/service/ServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/target/classes/com/hls/beans/TestMyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/target/classes/com/hls/beans/TestMyBatis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/target/classes/com/hls/dao/Idao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/target/classes/com/hls/dao/Idao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/target/classes/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/target/classes/mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatis/target/test-classes/com/MyBatis/service/ServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatis/target/test-classes/com/MyBatis/service/ServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMyBatisNew" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMyBatisNew" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resourse/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resourse/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resourse/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hls/test/TestSpring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hls/beans/Pay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hls/beans/WeChatPay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hls/beans/ALiBaBaPay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hls/beans/PrettyGirl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="XSLT Stylesheet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resourse/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resourse/applicationComtext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hls/beans/Girl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hls/beans/PrettyGirl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hls/beans/Pay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hls/beans/WeChatPay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hls/beans/ALiBaBaPay.java" />
+        <option value="$PROJECT_DIR$/src/main/resourse/log4j.properties.properties" />
+        <option value="$PROJECT_DIR$/src/main/resourse/log4j2.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hls/test/TestSpring.java" />
+        <option value="$PROJECT_DIR$/src/main/resourse/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resourse/applicationContext.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TestString Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TestString Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TestString Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TestString Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="1920" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestString" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestString" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestString" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestString" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestString" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestString" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestString" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestString" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestString" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/classes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/java/main" />
+      <recent name="$PROJECT_DIR$/src/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestSpring.test03">
+    <configuration name="TestSpring.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestString" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hls.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hls.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hls.test.TestSpring" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestString" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hls.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hls.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hls.test.TestSpring" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestString" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hls.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hls.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hls.test.TestSpring" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSpring.test03" />
+        <item itemvalue="JUnit.TestSpring.test02" />
+        <item itemvalue="JUnit.TestSpring.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f50a9999-1d1d-43d8-8397-30deb57e8bf5" name="Default Changelist" comment="" />
+      <created>1563687299627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563687299627</updated>
+      <workItem from="1563687302893" duration="1604000" />
+      <workItem from="1563688930867" duration="4309000" />
+      <workItem from="1563711911430" duration="2060000" />
+      <workItem from="1563714123149" duration="1688000" />
+      <workItem from="1563715838515" duration="5304000" />
+      <workItem from="1563886226794" duration="7838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSpring_test02 - 2019.07.21 at 21h 33m 14s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test02 - 2019.07.21 at 21h 39m 07s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test02 - 2019.07.21 at 21h 40m 26s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test02 - 2019.07.21 at 21h 42m 59s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test02 - 2019.07.21 at 21h 53m 35s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test02 - 2019.07.21 at 22h 14m 36s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test02 - 2019.07.21 at 22h 17m 06s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test02 - 2019.07.24 at 10h 02m 07s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test03 - 2019.07.24 at 10h 02m 13s.xml">
+      <configuration name="TestSpring.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test03 - 2019.07.24 at 10h 02m 43s.xml">
+      <configuration name="TestSpring.test03" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22803000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19453377" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="MyBatis Builder" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946582" weight="0.45883644" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005342" side_tool="true" weight="0.32821077" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="MyBatis Log" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.28456593" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/java/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/resourse/web.xml" />
+    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hls/beans/Girl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar!/META-INF/maven/org.apache.logging.log4j/log4j-api/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hls/beans/ALiBaBaPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hls/beans/PrettyGirl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hls/beans/Pay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hls/beans/WeChatPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hls/test/TestSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resourse/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resourse/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resourse/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lang="http://www.springframework.org/schema/lang"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
+
+    <!--将对象创建交给Spring容器，在这个配置文件里面去声明我要什么对象，-->
+
+
+    <!--　ｃｌａｓｓ :要写ＪＡＶＡ全限定类名，通过全类名使用反射创建
+          id : 给这个对象起名字，在整个应用程序上下文当中方便区分
+    -->
+
+    <!--<bean class="com.hls.beans.Girl" id="girl">
+
+    </bean>-->
+
+    <bean class="com.hls.beans.PrettyGirl" id="girl">
+
+    </bean>
+
+
+    <!--在配置文件中写一个bean   就可以称之为注入一个bean对象  -->
+
+    <!--换成ALiBaBaPay就可以直接实现了-->
+    <bean class="com.hls.beans.WeChatPay" id="pay">
+
+    </bean>
+
+    <bean class="com.hls.beans.ALiBaBaPay" id="aLiBaBaPay">
+
+    </bean>
+
+    <bean class="com.hls.beans.Girl" id="girl2">
+
+    </bean>
+</beans>
